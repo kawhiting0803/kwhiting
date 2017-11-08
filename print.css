@@ -1,0 +1,204 @@
+/*page container*/
+* {margin:0;padding:0}
+
+html {min-width:1000px; height:100%}
+
+body {
+	background:url(images/bodybg.jpg) no-repeat center; 
+	height:100%; 
+}
+
+#mainContainer {
+	background: #BDB76B; 
+	width:1000px;
+	margin:0 auto;
+	position:relative;
+	font-family:Tahoma, Arial, helvetica, sans-serif;
+	line-height:1.5em;
+	color:#404040
+}
+/*header*/
+#header, #banner, #logo{
+	display: none;
+}
+#logo{
+	float:right;
+	vertical-align: bottom;
+	height:200px;
+	border: 8px solid #E5E4E2;
+	margin:-80px -250px auto auto;
+	border-radius:25px;
+	-ms-transform:rotate(40deg); /* IE 9 */
+	-webkit-transform:rotate(40deg); /* Chrome, Safari, Opera */
+	transform:rotate(30deg); /* Standard syntax */
+}
+
+/*navigation*/
+ul{
+	list-style:none;
+}
+.site-nav {
+	position:absolute;
+	left:16px;
+	top:35px;
+	overflow:hidden
+}
+.site-nav li {
+	float:left;
+	font-size:17px;
+	line-height:1.2em;
+	text-transform:uppercase;
+	padding:0 30px; 
+	margin-left:-6px
+}
+.site-nav li a {
+	text-decoration:none;
+	color:#006600
+}
+.site-nav li a:hover, .site-nav li a.act {
+	color:#89b700
+}
+/* welcome page list*/
+.list li{
+	list-style-image: url(images/leaf.icon.jpg);
+	list-style-position: outside;
+	padding-left: 0px; 
+	margin-left: 3.5em;
+}
+.list li a{
+	text-decoration:none;
+	font-weight:bold
+}
+/*links*/
+a:link {
+	color:#89b700;
+	outline:none
+}
+.list li a:hover, .raccoonList a:hover {
+	text-decoration:underline
+}
+.raccoonList a:visited {
+	color:#551a8b
+}
+/*headings*/
+h1 {
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif; 
+	color:#625D5D;
+	text-shadow: 0px 2px 1px #bbbaba;
+	font-size:60px;
+	text-transform:uppercase;
+	margin-bottom:20px}
+h2 {
+	color:#837E7C;
+	font-size:30px;
+	text-transform:uppercase;
+	margin-bottom:20px
+}
+h3 {
+	font-size:1.2em;
+	color:#89b700;
+	margin-bottom:15px
+}
+/* content */
+#main {
+	height: 650px;
+	padding-top: 50px; 
+	font-size:.90em; 
+	margin-left:300px
+}
+#raccoonmain {
+	height: 1500px;
+	padding-top: 50px; 
+	font-size:.90em; 
+	margin-left:0px
+}
+article {
+	padding-bottom:20px;
+	padding-left:30px;
+}
+#section {padding:10px 20px 98px 30px}
+
+#sidebar {
+	float:left;
+	min-height: 650px;
+	width:24%!important;
+	margin:-775px auto 1px;
+	line-height:1.5em;
+	font-size:17px;
+	line-height:1.2em;
+	padding:125px 30px 60px 30px; 
+	text-decoration:none;
+	color:#625D5D;
+	background:#F5F5DC;
+	
+}
+/* footer */
+#footer {
+	clear:left;
+	padding-top: 20px;
+	height:40px;
+	position:center;
+	color:#414141;
+	font-size:.75em
+}
+/*  About Us Table Styles  */
+#tableContainer {
+	padding: 1px;
+	width:670px;
+	margin-left:30px;
+	border-right:none;
+}
+#tableContainer h3{margin-bottom:0}
+
+.teamTableContent { width: 100%;}
+
+td {
+	text-align: center;
+	vertical-align: middle;
+	width: 150px;
+	border-right: 3px solid #e2e7eb;		
+	color: #77808a;
+}
+
+.teamTableContent tr td { padding: 10px 0}
+
+.teamTableContent tfoot td {
+	border-top: 1px solid #e2e7eb;
+	padding: 25px 0;
+}
+/*  Button Styles  */
+a.emailButton {
+	text-decoration: none;
+	color: white;
+	border: 1px solid #63b13d;
+	font-weight: bold;
+ 	padding: 5px 18px;
+ 	display: inline-block; 
+	background-color: #72ce3f; 
+}
+a.emailButton:hover {
+	background-color: #79db43; 	
+}
+/*  Plants Table Styles */
+.raccoonList{
+	text-align:left;
+	margin-bottom:40px;
+}
+.raccoonList a{
+	text-decoration:none;
+	font-weight:bold;
+}
+.raccoonList th {
+	padding-top:20px;
+	text-align:center;
+	font-size:14px;
+	color: #77808a;
+}
+.raccoonList p {	
+	text-align:left;
+	padding-left:10px
+}
+.check{color:green}
+
+
+
